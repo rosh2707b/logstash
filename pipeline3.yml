@@ -1,0 +1,16 @@
+resources:
+  - name: resource-tutorial
+    type: git
+    source:
+      uri: https://github.com/rosh2707b/logstash.git
+      branch: main
+
+jobs:
+  - name: job-clone
+    public: true
+    serial: true
+    plan:
+      - get: resource-tutorial
+        trigger: true
+      - task: hello-world
+        file: resource-tutorial/tutorials/basic/task-hello-world/task_hello_world.yml
