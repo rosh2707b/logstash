@@ -13,4 +13,4 @@ jobs:
       - get: resource-logstash
         trigger: true
       - task: hello-world
-        file: resource-logstashtask_hello_world.yml
+        file: resource-logstash/task_hello_world.yml
