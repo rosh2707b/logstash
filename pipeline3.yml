@@ -12,5 +12,5 @@ jobs:
     plan:
       - get: resource-logstash
         trigger: true
-      - task: hello-world
+      - task: task-clone
         file: resource-logstash/task_hello_world.yml
