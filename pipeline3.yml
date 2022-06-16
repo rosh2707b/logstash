@@ -1,5 +1,5 @@
 resources:
-  - name: resource-tutorial
+  - name: resource-logstash
     type: git
     source:
       uri: https://github.com/rosh2707b/logstash.git
@@ -10,7 +10,7 @@ jobs:
     public: true
     serial: true
     plan:
-      - get: resource-tutorial
+      - get: resource-logstash
         trigger: true
       - task: hello-world
-        file: resource-tutorial/tutorials/basic/task-hello-world/task_hello_world.yml
+        file: resource-logstashtask_hello_world.yml
