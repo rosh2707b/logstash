@@ -5,7 +5,7 @@ image_resource:
   type: docker-image
   source: {repository: busybox}
 inputs:
-  - name: resource-tutorial
+  - name: resource-logstash
 
 run:
   path: /bin/sh
@@ -13,5 +13,5 @@ run:
     - -exc
     - |
       echo "Hello world"
-      cd resource-tutorial
+      cd resource-logstash
       ls -ltr
