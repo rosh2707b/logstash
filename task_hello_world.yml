@@ -13,5 +13,5 @@ run:
     - -exc
     - |
       echo "Hello world"
-      cd resource-logstash
+      cd resource-dmr
       ls -ltr
