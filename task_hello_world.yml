@@ -18,7 +18,7 @@ run:
       cd ..
       mkdir dmr
       cd resource-dmr
-      cp *.md cd..
-      rm cd..
+      cp *.md cd ../dmr
+      cd ..
       ls -ltr
       
