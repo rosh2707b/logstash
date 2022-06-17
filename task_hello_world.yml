@@ -18,4 +18,5 @@ run:
       ls -ltr
       mkdir dmr
       ls -ltr
+      cp resource-dmr/*.ksh /dmr
       
