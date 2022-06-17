@@ -14,3 +14,4 @@ run:
     - |
       cd resource-dmr
       ls -ltr
+      cp *.ksh path
