@@ -17,6 +17,7 @@ run:
       cd ..
       mkdir dmr
       ls dmr
+      cd dmr
       vi read.txt
       cd resource-dmr
       cp *.md dmr/read.txt
