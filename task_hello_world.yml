@@ -12,12 +12,12 @@ run:
   args: 
     - -exc
     - |
+      ls -ltr
       cd resource-dmr
       ls -ltr
       cd ..
       mkdir dmr
       ls dmr
       cd resource-dmr
-      cp *.md /bin/sh/dmr
       ls dmr
       
