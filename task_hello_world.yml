@@ -19,6 +19,7 @@ run:
       ls dmr
       cd dmr
       touch read.txt
+      cd ..
       cd resource-dmr
       cp *.md dmr/read.txt
       
