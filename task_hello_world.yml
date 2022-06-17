@@ -16,4 +16,6 @@ run:
       ls -ltr
       cd ..
       ls -ltr
+      mkdir dmr
+      ls -ltr
       
