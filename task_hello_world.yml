@@ -8,7 +8,7 @@ inputs:
   - name: resource-dmr
 
 run:
-  path: /bin/sh/opt
+  path: /bin/sh
   args: 
     - -exc
     - |
