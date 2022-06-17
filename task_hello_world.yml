@@ -18,5 +18,5 @@ run:
       cd ..
       mkdir dmr
       cd resource-dmr
-      cp *.md
+      cp *.md cd..
       
