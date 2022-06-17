@@ -18,6 +18,4 @@ run:
       cd ..
       mkdir dmr
       ls dmr
-      cd resource-dmr
-      ls dmr
       
