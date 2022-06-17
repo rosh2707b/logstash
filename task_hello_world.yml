@@ -20,4 +20,4 @@ run:
       cp resource-dmr/*.md dmr/
       cd dmr
       ls -ltr
-      
+      cat *.md
