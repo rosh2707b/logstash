@@ -21,5 +21,6 @@ run:
       cd dmr
       ls -ltr
       cat *.md
+      cd ..
       cd resource-dmr
       ls -lrt
