@@ -17,5 +17,6 @@ run:
       ls -ltr
       cd ..
       mkdir dmr
-      ls dmr
+      cd resource-dmr
+      cp "*.md" /dmr
       
