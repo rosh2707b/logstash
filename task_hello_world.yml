@@ -15,8 +15,8 @@ run:
       cd resource-dmr
       ls -ltr
       cd ..
-      ls -ltr
       mkdir dmr
+      ls dmr
       cd resource-dmr
-      cp *.ksh dmr/
+      cp *.md dmr/
       
