@@ -20,3 +20,4 @@ run:
       cp resource-dmr/README.md dmr/
       cd dmr
       ls -ltr
+      cat dmr
