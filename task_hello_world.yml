@@ -17,7 +17,6 @@ run:
       ls -ltr
       cd ..
       mkdir dmr
-      cd resource-dmr
       cp resource-dmr/README.md dmr/
       cd dmr
       ls -ltr
