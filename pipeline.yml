@@ -17,7 +17,7 @@ run:
       ls -ltr
       cd ..
       mkdir test
-      cp resource-dmr/README.md test/
-      cd dmr
+      cp resource-testV/README.md test/
+      cd test
       ls -ltr
       cat *.md
