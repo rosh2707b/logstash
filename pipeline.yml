@@ -1,24 +1,23 @@
-resources:
-  - name: resource-dmr
-    type: git
-    source:
-      uri: https://github.comcast.com/dmr-engineering/DMR-deployment.git
-      branch: dev
-      username: rboddu495
-      password: aae2501a546669937ac74f15aa6ce02367e8186f
-      
-  - name: resource-logstash
-    type: git
-    source:
-      uri: https://github.com/rosh2707b/logstash.git
-      branch: main
-jobs:
-  - name: job-clone
-    public: true
-    serial: true
-    plan:
-      - get: resource-dmr
-      - get: resource-logstash
-        trigger: true
-      - task: task-clone
-        file: resource-logstash/task_hello_world.yml
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: busybox}
+inputs:
+  - name: resource-testV
+
+run:
+  path: /bin/sh
+  args: 
+    - -exc
+    - |
+      ls -ltr
+      cd resource-testV
+      ls -ltr
+      cd ..
+      mkdir dmr
+      cp resource-dmr/README.md dmr/
+      cd dmr
+      ls -ltr
+      cat *.md
