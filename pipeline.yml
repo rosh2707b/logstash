@@ -6,7 +6,7 @@ image_resource:
   source: {repository: busybox}
 inputs:
   - name: resource-testV
-  - name: resouce-logstash
+  - name: resource-logstash
 
 run:
   path: /bin/sh
