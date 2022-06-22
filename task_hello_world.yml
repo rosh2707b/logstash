@@ -6,8 +6,6 @@ image_resource:
   source: {repository: busybox}
 inputs:
   - name: resource-dmr
-outputs:
-  - name: resource-server
 
 run:
   path: /bin/sh
