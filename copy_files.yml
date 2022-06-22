@@ -23,4 +23,4 @@ run:
       cd dmr
       ls -ltr
       cat *.md
-      scp dmr/README.txt dsclagnt-ch2-a1s.sys.comcast.net:/home/rboddu495
+      scp -o "StrictHostKeyChecking no" dmr/README.txt dsclagnt-ch2-a1s.sys.comcast.net:/home/rboddu495 
