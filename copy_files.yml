@@ -1,0 +1,26 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: ubuntu}
+inputs:
+  - name: resource-dmr
+
+run:
+  path: /bin/sh
+  args: 
+    - -exc
+    - |
+      pwd
+      ls -ltr
+      cd resource-dmr
+      ls -ltr
+      cd ..
+      mkdir dmr
+      ls -ltr
+      cp resource-dmr/README.md dmr/
+      cd dmr
+      ls -ltr
+      cat *.md
+	  scp dmr/README.txt dsclagnt-ch2-a1s.sys.comcast.net:/home/rboddu495
