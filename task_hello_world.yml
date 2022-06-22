@@ -25,4 +25,4 @@ run:
       ls -ltr
       cat *.md
       pwd
-      resource-logstash/python_file.py
+      
