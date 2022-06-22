@@ -24,5 +24,3 @@ run:
       ls -ltr
       cat *.md
       pwd
-      cd ..
-      cp dmr/*.md rboddu495@dsclagnt-ch2-a1s.sys.comcast.net/home/rboddu495
