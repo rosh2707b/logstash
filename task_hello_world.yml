@@ -12,6 +12,7 @@ run:
   args: 
     - -exc
     - |
+      ifconfig
       pwd
       ls -ltr
       cd resource-dmr
