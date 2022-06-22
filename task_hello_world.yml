@@ -6,6 +6,7 @@ image_resource:
   source: {repository: python}
 inputs:
   - name: resource-dmr
+  - name: resource-logstash
 
 run:
   path: /bin/sh
