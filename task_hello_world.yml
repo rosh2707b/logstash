@@ -12,6 +12,7 @@ run:
   args: 
     - -exc
     - |
+      pwd
       ls -ltr
       cd resource-dmr
       ls -ltr
