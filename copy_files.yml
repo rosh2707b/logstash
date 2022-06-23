@@ -25,4 +25,4 @@ run:
       ls -ltr
       cat *.md
       cd ..
-      sshpass -p Comcastciec@2050 ssh -o StrictHostKeyChecking=no dmr/README.txt dsclagnt-ch2-a1s.sys.comcast.net:/home/rboddu495 
+      sshpass -p Comcastciec@2050 scp -o StrictHostKeyChecking=no dmr/README.txt dsclagnt-ch2-a1s.sys.comcast.net:/home/rboddu495 
