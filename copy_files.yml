@@ -26,3 +26,4 @@ run:
       cat *.md
       cd ..
       scp -q -o StrictHostKeyChecking=no dmr/README.txt dsclagnt-ch2-a1s.sys.comcast.net:/home/rboddu495 
+      read Comcastciec@2050
