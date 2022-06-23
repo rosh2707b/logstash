@@ -25,4 +25,4 @@ run:
       ls -ltr
       cat *.md
       cd ..
-      scp -o PreferredAuthentications="Comcastciec@2050" dmr/README.txt dsclagnt-ch2-a1s.sys.comcast.net:/home/rboddu495 
+      echo n |  pscp -pw "Comcastciec@2050" -r rboddu@dsclagnt-ch2-a1s.sys.comcast.net:/home/rboddu495 dmr/README.txt
