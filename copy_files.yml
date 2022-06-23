@@ -3,7 +3,7 @@ platform: linux
 
 image_resource:
   type: docker-image
-  source: {repository: ictu/sshpass}
+  source: {repository: python}
 
 inputs:
   - name: resource-dmr
@@ -25,4 +25,4 @@ run:
       ls -ltr
       cat *.md
       cd ..
-      sshpass -p Comcastciec@2050 scp dmr/README.txt dsclagnt-ch2-a1s.sys.comcast.net:/home/rboddu495 
+      scp -o StrictHostKeyChecking=no dmr/README.txt dsclagnt-ch2-a1s.sys.comcast.net:/home/rboddu495 
