@@ -3,7 +3,7 @@ platform: linux
 
 image_resource:
   type: docker-image
-  source: {repository: python}
+  source: {repository: ictu/sshpass}
 
 inputs:
   - name: resource-dmr
