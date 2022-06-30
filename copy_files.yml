@@ -21,4 +21,4 @@ run:
       mkdir dmr
       ls -ltr
       cp resource-dmr/README.md dmr/
-      scp -o StrictHostKeyChecking=no dmr/README.md dsclagnt-ch2-a1s.sys.comcast.net:/home/rboddu495/
+      scp -o StrictHostKeyChecking=no dmr/README.md APAC-A0YifcZawr:/C:/rboddu495/Desktop
