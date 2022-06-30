@@ -21,8 +21,4 @@ run:
       mkdir dmr
       ls -ltr
       cp resource-dmr/README.md dmr/
-      cd dmr
-      ls -ltr
-      cat *.md
-      cd ..
-      cp dmr/README.txt dsclagnt-ch2-a1s.sys.comcast.net:/home/rboddu495/
+      cp dmr/README.md dsclagnt-ch2-a1s.sys.comcast.net:/home/rboddu495/
